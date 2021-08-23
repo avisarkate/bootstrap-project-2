@@ -1,0 +1,115 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+body {
+     background-color: white;
+}
+#header {
+     background: #fff;
+     transition: all 0.5s;
+     z-index: 997;
+     padding: 8px 0;
+     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+/* #nav-c {
+     background-color: white;
+} */
+.navbar-brand {
+     font-weight: 700;
+     font-size: 30px !important;
+}
+#navbarNavDropdown ul li a {
+     font-weight: 700;
+     font-size: 16px;
+     color: rgb(7, 6, 6, 0.95) !important;
+}
+#navbarNavDropdown ul li a:hover {
+     color: rgb(19, 172, 19) !important;
+}
+/* 
+.carousel-inner {
+     height: 100vh;
+} */
+
+.btnc {
+     border: 3px solid rgb(6, 156, 6) !important ;
+     width: fit-content;
+     background: transparent;
+     text-align: center;
+     margin: 0 auto;
+     color: white !important;
+     padding: 10px 20px !important;
+     font-weight: 500;
+     border-radius: 7px;
+     font-size: 16px;
+}
+.btnc:hover {
+     background: rgb(6, 156, 6);
+}
+
+/* page2 */
+
+.sside p i.fas {
+     color: rgb(6, 156, 6);
+     padding-right: 5px;
+     font-weight: 400;
+}
+.carousel-caption {
+     background-color: rgba(0, 0, 0, 0.527);
+     padding: 25px;
+     height: 300px;
+     font-size: 18px;
+     text-align: left !important;
+     border-top: 5px solid rgb(6, 156, 6);
+     animation: up 0.5s;
+}
+/* services  */
+
+.box {
+     box-shadow: 0 2px 5px rgba(168, 166, 166, 0.4);
+     position: relative;
+     padding: 40px 30px;
+     margin-bottom: 30px;
+     transition: transform 0.3s ease-out;
+      background: whitesmoke;
+}
+.box:hover i{
+     color: white;
+}
+.box:hover{
+     box-shadow: -2px -3px 10px 10px rgba(109, 107, 107, 0.1);
+     transform: scale(1.01);
+      background-color: #fff ;
+}
+
+.text-center {
+     text-align: center !important;
+}
+
+@media (min-width: 768px) {
+     .col-md-4 {
+          flex: 0 0 auto;
+          width: 31.333333% !important;
+     }
+}
+
+.box i {
+     position: absolute;
+     top: 26%;
+     left: 45%;
+     font-size: 30px;
+}
+
+.box h1.sbox-1 {
+     color: rgb(77, 146, 224);
+}
+/* .box:hover .sbox1 {
+     color: rgb(245, 245, 245)!important;
+} */
+.box:hover .path{
+ color: rgb(77, 146, 224)!important;
+}
+
+
